@@ -1,0 +1,22 @@
+{
+  "name": "ai-subtitle-generator",
+  "version": "1.0.0",
+  "description": "AI字幕生成器 - Android版",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx serve www",
+    "build": "echo 'Static site, no build needed'",
+    "android:sync": "npx cap sync",
+    "android:open": "npx cap open android",
+    "android:build": "cd android && ./gradlew assembleDebug"
+  },
+  "keywords": ["subtitle", "ai", "android"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "serve": "^14.2.1"
+  }
+}
